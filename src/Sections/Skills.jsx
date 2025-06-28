@@ -10,42 +10,42 @@ const Skills = () => {
       <div className="grid mt-10 grid-cols-2 max-md:grid-cols-1 md:gap-32 gap-12">
         <div className="">
           <h1 className="font-bold text-lg">Front End</h1>
-          <h3 className="text-lg font-semibold mt-6">HTML</h3>
+          <h3 className="text-lg font-semibold mt-6 text-[#D5D5D5]">HTML</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-3/4 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">CSS</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">CSS</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-3/5 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">Tailwind CSS</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">Tailwind CSS</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-4/5 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">JavaScript</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">JavaScript</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-3/4 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">React.js</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">React.js</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-5/6 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">Firebase</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">Firebase</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-3/5 rounded-full bg-[#007CED] h-full"></div>
           </div>
         </div>
         <div className="">
           <h1 className="font-bold text-lg">Back End</h1>
-          <h3 className="text-lg font-semibold mt-6">Node.js</h3>
+          <h3 className="text-lg font-semibold mt-6 text-[#D5D5D5]">Node.js</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-1/4 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">Express.js</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">Express.js</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-2/4 rounded-full bg-[#007CED] h-full"></div>
           </div>
-          <h3 className="text-lg font-semibold mt-4">MongoDB</h3>
+          <h3 className="text-lg font-semibold mt-4 text-[#D5D5D5]">MongoDB</h3>
           <div className="h-2 w-full -translate-x-0.5 rounded-full bg-[#444444] mb-4">
             <div className="w-3/5 rounded-full bg-[#007CED] h-full"></div>
           </div>
