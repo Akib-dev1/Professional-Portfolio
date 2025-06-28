@@ -11,6 +11,7 @@ A modern, responsive portfolio website built with **React**, **React Router**, a
 - Use of **React Icons** for scalable and customizable icons
 - Fast and lightweight with Vite and Tailwind CSS integration
 - Easy to customize and extend for your own portfolio
+- **Live demo:** [https://akib-dev1-portfolio.netlify.app/](https://akib-dev1-portfolio.netlify.app/)
 
 ---
 
