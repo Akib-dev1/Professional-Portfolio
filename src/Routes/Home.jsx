@@ -7,7 +7,7 @@ import Education from "../Sections/Education";
 import Projects from "../Sections/Projects";
 import Contact from "../Sections/Contact";
 
-const Home = ({projects}) => {
+const Home = ({ projects }) => {
   return (
     <>
       <div className="md:w-9/12 w-11/12 mx-auto py-20">
@@ -38,6 +38,11 @@ const Home = ({projects}) => {
                 <FaGithubSquare size={36} />
               </a>
             </div>
+            <div className="mt-5 flex items-center justify-center md:justify-start">
+              <a className="btn bg-inherit shadow-xl rounded-full border-blue-600">
+                Download Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -47,13 +52,22 @@ const Home = ({projects}) => {
       <section id="skills" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Skills />
       </section>
-      <section id="education" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section
+        id="education"
+        className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20"
+      >
         <Education />
       </section>
-      <section id="projects" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section
+        id="projects"
+        className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20"
+      >
         <Projects projects={projects} />
       </section>
-      <section id="contact" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section
+        id="contact"
+        className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20"
+      >
         <Contact />
       </section>
     </>
