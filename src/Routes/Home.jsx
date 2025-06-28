@@ -5,6 +5,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 import Education from "../Sections/Education";
 import Projects from "../Sections/Projects";
+import Contact from "../Sections/Contact";
 
 const Home = ({projects}) => {
   return (
@@ -51,6 +52,9 @@ const Home = ({projects}) => {
       </section>
       <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Projects projects={projects} />
+      </section>
+      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+        <Contact />
       </section>
     </>
   );
