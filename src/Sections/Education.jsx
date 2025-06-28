@@ -13,7 +13,7 @@ const Education = () => {
           <div className="timeline-middle">
             <PiGraduationCapFill size={60} className="text-[#007CED]" />
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-start md:mb-10 md:text-end">
             <time className="font-mono italic">2010 - 2021</time>
             <div className="text-lg font-black text-[#D5D5D5]">SSC</div> Monipur
             High School and College, Bangladesh
