@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Law.BD",
+    "cardTitle": "Law.BD",
+    "image": "https://i.ibb.co/Gf72Bb4s/image.png",
+    "description": "Built with HTML, Tailwind CSS, and React, Law.BD lets users view detailed profiles of lawyers using React Router. It includes a booking system that shows cost analysis graphs on a separate page. A dedicated blog page is also included.",
+    "techStack": ["HTML", "Tailwind CSS", "React", "React Router"],
+    "liveLink": "https://assignment-8-akib-dev1.netlify.app/",
+    "githubLink": "https://github.com/Akib-dev1/Lawyer.BD",
+    "challenges": "Integrating dynamic cost graphs for each lawyer and managing page routing without a backend was challenging.",
+    "futurePlans": "Plan to add authentication, user dashboards, and integrate Firebase for lawyer appointment history and real-time chat."
+  },
+  {
+    "title": "PlantPlanet",
+    "cardTitle": "PlantPlanet",
+    "image": "https://i.ibb.co/vvKXBnVm/image.png",
+    "description": "A full-stack, mobile-responsive web application for managing and monitoring indoor and outdoor plant care tasks. Designed with a vibrant Mango-themed aesthetic, this platform allows plant lovers to easily track watering, fertilizing, and overall plant health.",
+    "techStack": ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+    "liveLink": "https://assignment-10-akib-dev1.netlify.app/",
+    "githubLink": "https://github.com/Akib-dev1/assignment-10",
+    "challenges": "Handling real-time plant tracking and syncing data between backend and frontend was a major challenge.",
+    "futurePlans": "Future plans include adding push notifications for plant care, and AI-based suggestions for plant health."
+  },
+  {
+    "title": "Grand Palace",
+    "cardTitle": "Grand Palace",
+    "image": "https://i.ibb.co/SwQ4z5tr/image.png",
+    "description": "A fully responsive restaurant website built using HTML, Tailwind CSS, and JavaScript — created as a beginner project to practice real-world layout, interactivity, and responsive design.",
+    "techStack": ["React", "Tailwind CSS", "Firebase"],
+    "liveLink": "https://akib-dev1.github.io/Responsive-Restaurant/",
+    "githubLink": "https://github.com/Akib-dev1/Responsive-Restaurant",
+    "challenges": "Implementing responsive UI for booking flow and managing state across pages with Firebase authentication.",
+    "futurePlans": "Add admin dashboard, payment gateway integration, and multilingual support for international users."
+  }
+]

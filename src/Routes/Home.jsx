@@ -4,8 +4,9 @@ import Skills from "../Sections/Skills";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 import Education from "../Sections/Education";
+import Projects from "../Sections/Projects";
 
-const Home = () => {
+const Home = ({projects}) => {
   return (
     <>
       <div className="md:w-9/12 w-11/12 mx-auto py-20">
@@ -30,7 +31,7 @@ const Home = () => {
             </p>
             <div className="flex items-center gap-4 mt-8 justify-center md:justify-start">
               <a href="https://www.facebook.com/akib.anjum.5" target="_blank">
-                <FaFacebook size={34} className="text-[#007CED]"/>
+                <FaFacebook size={34} className="text-[#007CED]" />
               </a>
               <a href="https://github.com/Akib-dev1" target="_blank">
                 <FaGithubSquare size={36} />
@@ -47,6 +48,9 @@ const Home = () => {
       </section>
       <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Education />
+      </section>
+      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+        <Projects projects={projects} />
       </section>
     </>
   );

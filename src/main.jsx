@@ -7,6 +7,10 @@ import {
   RouterProvider,
 } from "react-router";
 import Home from './Routes/Home.jsx';
+import ProjectDetails from './Routes/ProjectDetails.jsx';
+
+const projects= fetch('/Projects.json')
+  .then(response => response.json());
 
 const router = createBrowserRouter([
   {
@@ -15,7 +19,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <Home projects={projects} />,
+      },
+      {
+        path: "/projects/:name",
+        element: <ProjectDetails projects={projects} />,
       }
     ]
   },
