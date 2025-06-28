@@ -28,16 +28,16 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>About Me</a>
+                <a href="#about">About Me</a>
               </li>
               <li>
-                <a>Skills</a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <a>Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li>
-                <a>Contact Me</a>
+                <a href="#contact">Contact Me</a>
               </li>
             </ul>
           </div>
@@ -48,16 +48,16 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-lg font-semibold">About Me</a>
+              <a className="text-lg font-semibold" href="#about">About Me</a>
             </li>
             <li>
-              <a className="text-lg font-semibold">Skills</a>
+              <a className="text-lg font-semibold" href="#skills">Skills</a>
             </li>
             <li>
-              <a className="text-lg font-semibold">Projects</a>
+              <a className="text-lg font-semibold" href="#projects">Projects</a>
             </li>
             <li>
-              <a className="text-lg font-semibold">Contact Me</a>
+              <a className="text-lg font-semibold" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>

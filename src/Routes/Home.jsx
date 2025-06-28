@@ -41,19 +41,19 @@ const Home = ({projects}) => {
           </div>
         </div>
       </div>
-      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section id="about" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <AboutMe />
       </section>
-      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section id="skills" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Skills />
       </section>
-      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section id="education" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Education />
       </section>
-      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section id="projects" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Projects projects={projects} />
       </section>
-      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+      <section id="contact" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Contact />
       </section>
     </>

@@ -5,7 +5,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
-      <header>
+      <header className="sticky top-0 z-50 backdrop-blur-md">
         <Navbar />
       </header>
       <main>
