@@ -8,7 +8,7 @@ const ProjectDetails = ({projects}) => {
     (item) => item.title.toLowerCase() === param.name.toLowerCase()
   );
   return (
-    <div className="h-screen md:w-9/12 w-11/12 mx-auto py-20">
+    <div className="min-h-screen md:w-9/12 w-11/12 mx-auto py-20">
       <div className="card lg:card-side bg-[#252525] shadow-sm">
         <figure>
           <img src={project.image} alt={project.title} />
