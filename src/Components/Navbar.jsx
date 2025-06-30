@@ -34,6 +34,9 @@ const Navbar = () => {
                 <a href="#skills">Skills</a>
               </li>
               <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
                 <a href="#projects">Projects</a>
               </li>
               <li>
@@ -48,21 +51,36 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-lg font-semibold" href="#about">About Me</a>
+              <a className="text-lg font-semibold" href="#about">
+                About Me
+              </a>
             </li>
             <li>
-              <a className="text-lg font-semibold" href="#skills">Skills</a>
+              <a className="text-lg font-semibold" href="#skills">
+                Skills
+              </a>
             </li>
             <li>
-              <a className="text-lg font-semibold" href="#projects">Projects</a>
+              <a className="text-lg font-semibold" href="#education">
+                Education
+              </a>
             </li>
             <li>
-              <a className="text-lg font-semibold" href="#contact">Contact Me</a>
+              <a className="text-lg font-semibold" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a className="text-lg font-semibold" href="#contact">
+                Contact Me
+              </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-inherit shadow-xl rounded-full border-blue-600">Download Resume</a>
+          <a className="btn bg-inherit shadow-xl rounded-full border-blue-600">
+            Download Resume
+          </a>
         </div>
       </div>
     </div>
