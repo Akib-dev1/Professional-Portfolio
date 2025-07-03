@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,10 +15,22 @@ const Footer = () => {
         </aside>
         <nav className="grid-flow-col items-center gap-4 md:place-self-center md:justify-self-end">
           <a href="https://www.facebook.com/akib.anjum.5" target="_blank">
-            <FaFacebook size={24} />
+            <FaFacebook
+              size={24}
+              className="hover:text-blue-500 hover:scale-120 duration-150 ease-in"
+            />
           </a>
           <a href="https://github.com/Akib-dev1" target="_blank">
-            <FaGithubSquare size={26} />
+            <FaGithubSquare
+              size={26}
+              className="hover:text-[#D5D5D5] hover:scale-120 duration-150 ease-in"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-akib" target="_blank">
+            <FaLinkedin
+              size={26}
+              className="hover:text-blue-600 hover:scale-120 duration-150 ease-in"
+            />
           </a>
         </nav>
       </footer>
