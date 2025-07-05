@@ -51,6 +51,11 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
+              <a className="text-lg font-semibold" href="#">
+                Home
+              </a>
+            </li>
+            <li>
               <a className="text-lg font-semibold" href="#about">
                 About Me
               </a>
@@ -70,16 +75,11 @@ const Navbar = () => {
                 Projects
               </a>
             </li>
-            <li>
-              <a className="text-lg font-semibold" href="#contact">
-                Contact Me
-              </a>
-            </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-inherit shadow-xl rounded-full border-blue-600">
-            Download Resume
+          <a className="btn shadow-xl rounded-full bg-blue-600" href="#contact">
+            Contact Me
           </a>
         </div>
       </div>
