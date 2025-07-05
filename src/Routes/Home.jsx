@@ -54,7 +54,7 @@ const Home = ({ projects }) => {
               </a>
             </div>
             <div className="mt-5 flex items-center justify-center md:justify-start">
-              <a className="btn bg-inherit shadow-xl rounded-full border-blue-600" href="/Muhammad Akib Anjum Resume.pdf" download>
+              <a className="btn bg-inherit shadow-xl rounded-full border-blue-600 hover:bg-blue-600 duration-200 ease-in" href="/Muhammad Akib Anjum Resume.pdf" download>
                 Download Resume
               </a>
             </div>

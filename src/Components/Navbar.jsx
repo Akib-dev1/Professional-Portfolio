@@ -78,7 +78,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn shadow-xl rounded-full bg-blue-600" href="#contact">
+          <a className="btn shadow-xl rounded-full bg-blue-600 border-blue-600 hover:bg-inherit duration-200 ease-in" href="#contact">
             Contact Me
           </a>
         </div>
