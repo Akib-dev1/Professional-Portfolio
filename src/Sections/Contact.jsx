@@ -19,7 +19,7 @@ const Contact = () => {
               <div className="flex max-lg:flex-col items-center gap-4">
                 <div className="avatar">
                   <div className="ring-primary ring-offset-base-100 max-w-16 rounded-full ring-2 ring-offset-2">
-                    <img src="https://i.ibb.co/7x9LmPqb/image.png" />
+                    <img src="https://i.ibb.co/Q7d0hWK1/Muhammad-Akib-Anjum.jpg" />
                   </div>
                 </div>
                 <div className="">
