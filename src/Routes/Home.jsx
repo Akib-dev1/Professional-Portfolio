@@ -14,7 +14,7 @@ const Home = ({ projects }) => {
         <div className="flex max-md:flex-col items-center justify-center gap-12 md:gap-20">
           <div className="avatar p-5 rounded-full bg-[#444444]">
             <div className="max-w-96 rounded-full">
-              <img src="https://i.ibb.co/7x9LmPqb/image.png" />
+              <img src="https://i.ibb.co/Q7d0hWK1/Muhammad-Akib-Anjum.jpg" />
             </div>
           </div>
           <div className="max-md:text-center">
