@@ -31,5 +31,75 @@
     "githubLink": "https://github.com/Akib-dev1/Responsive-Restaurant",
     "challenges": "Implementing responsive UI for booking flow and managing state across pages with Firebase authentication.",
     "futurePlans": "Add admin dashboard, payment gateway integration, and multilingual support for international users."
+  },
+  {
+    "title": "Pixelo Merch",
+    "cardTitle": "Pixelo Merch",
+    "image": "https://i.ibb.co.com/vvwWcdhC/image.png",
+    "description": "Pixelo Merch is a full-stack e-commerce platform built with Next.js where users can browse products, add them to a cart, and place cash-on-delivery orders without needing an account. A powerful admin dashboard lets admins manage products, categories, stock, and orders from a single interface.",
+    "techStack": [
+      "Next.js",
+      "Next Auth",
+      "React",
+      "Next.js API Routes",
+      "MongoDB",
+      "Mongoose",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "ImgBB API",
+      "REST API"
+    ],
+    "liveLink": "https://pixelo-merch.vercel.app/",
+    "githubLink": "",
+    "challenges": "Handling full e-commerce flows such as cart, orders, and admin product management without a traditional backend framework and keeping state consistent across pages was challenging.",
+    "futurePlans": "Add user authentication, online payments, product wishlists, discount system, and improved analytics in the admin dashboard."
+  },
+  {
+    "title": "Servview",
+    "cardTitle": "Servview",
+    "image": "https://i.ibb.co.com/WNNj4knV/image.png",
+    "description": "Servview is a full-stack service listing platform where users can explore different services, view detailed information, and read or write reviews. It helps users find reliable services with transparent feedback and clear descriptions.",
+    "techStack": [
+      "React",
+      "React Router",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "Axios",
+      "REST API"
+    ],
+    "liveLink": "https://assignment-11-akib-dev1.netlify.app/",
+    "githubLink": "",
+    "challenges": "Designing the review system and preventing duplicate reviews while keeping the UI responsive was a major challenge.",
+    "futurePlans": "Add service owner dashboards, advanced filters, recommendations, and pagination/infinite scroll."
+  },
+  {
+    "title": "GhotokBD",
+    "cardTitle": "GhotokBD",
+    "image": "https://i.ibb.co.com/mVZdJ3rQ/image.png",
+    "description": "GhotokBD is a full-stack matrimony platform where users can browse profiles and request contact details. Users may pay to unlock specific profiles or become premium members for extended access.",
+    "techStack": [
+      "React",
+      "React Router",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "REST API"
+    ],
+    "liveLink": "https://assignment-12-akib-dev1.netlify.app/",
+    "githubLink": "https://github.com/Akib-dev1/Ghotok-BD",
+    "challenges": "Building a premium membership system and securing profile access rules required careful backend logic and database design.",
+    "futurePlans": "Add advanced matchmaking, search filters, secure payment integration, real-time chat, and admin moderation tools."
   }
 ]

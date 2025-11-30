@@ -6,6 +6,8 @@ import { FaFacebook } from "react-icons/fa6";
 import Education from "../Sections/Education";
 import Projects from "../Sections/Projects";
 import Contact from "../Sections/Contact";
+import VideoIntro from "../Sections/VideoIntro";
+import Hackathon from "../Sections/Hackathon";
 
 const Home = ({ projects }) => {
   return (
@@ -54,7 +56,11 @@ const Home = ({ projects }) => {
               </a>
             </div>
             <div className="mt-5 flex items-center justify-center md:justify-start">
-              <a className="btn bg-inherit shadow-xl rounded-full border-blue-600 hover:bg-blue-600 duration-200 ease-in" href="/Muhammad Akib Anjum Resume.pdf" download>
+              <a
+                className="btn bg-inherit shadow-xl rounded-full border-blue-600 hover:bg-blue-600 duration-200 ease-in"
+                href="/Muhammad Akib Anjum Resume.pdf"
+                download
+              >
                 Download Resume
               </a>
             </div>
@@ -64,6 +70,12 @@ const Home = ({ projects }) => {
       <section id="about" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <AboutMe />
       </section>
+      <section
+        id="video-intro"
+        className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20"
+      >
+        <VideoIntro />
+      </section>
       <section id="skills" className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
         <Skills />
       </section>
@@ -72,6 +84,9 @@ const Home = ({ projects }) => {
         className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20"
       >
         <Education />
+      </section>
+      <section className="md:w-9/12 w-11/12 mx-auto py-10 md:py-20">
+        <Hackathon />
       </section>
       <section
         id="projects"

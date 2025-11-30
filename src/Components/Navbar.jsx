@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-lg font-semibold" href="#">
+              <a className="text-lg font-semibold" href="/">
                 Home
               </a>
             </li>
